@@ -1,5 +1,5 @@
 {
-    "ip_server": "127.0.0.1",
+    "ip_server": "play.mythik.fr",
     "port": "25565",
-    "autoconnect": false
+    "autoconnect": true
 }

@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "Mythikia-Launcher",
   "version": "2.0.4",
-  "productName": "Uzurion Launcher",
-  "description": "Uzurion Launcher",
+  "productName": "Mythikia-Launcher",
+  "description": "Mythikia-Launcher",
   "main": "app/index.html",
-  "author": "Luuxis",
+  "author": "Skaos",
   "window": {
-    "title": "Uzurion update",
+    "title": "Mythikia-update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -18,7 +18,7 @@
     "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://146.59.227.140",
+  "url": "https://updatemythikia.mythik.fr",
   "user": "",
   "webkit": {
     "plugin": true
@@ -33,7 +33,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "Mythikia-Launcher",
     "nwVersion": "0.55.0",
     "packed": true,
     "targets": [
@@ -56,16 +56,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "Mythikia-Launcher",
+      "companyName": "Mythikia-Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "Mythikia-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "Mythikia-Launcher"
       }
     },
     "nsis": {
