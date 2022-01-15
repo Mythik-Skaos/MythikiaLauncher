@@ -1,6 +1,6 @@
 .block-play {
     position: absolute;
-    background: #222222;
+    background: #020020;
     width: 75%;
     height: 10%;
     margin: 10%;
@@ -19,11 +19,11 @@
     color: azure;
     margin-top: 1.7%;
     margin-left: 80%;
-    background: #64bf6d;
+    background: #1200b6;
 }
 
 .play-btn:hover {
-    background: #272928;
+    background: #0c0075;
 }
 
 .info-download {
@@ -54,6 +54,6 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #64bf6d;
+    background-color: #1200b6;
     border-radius: 10px;
 }

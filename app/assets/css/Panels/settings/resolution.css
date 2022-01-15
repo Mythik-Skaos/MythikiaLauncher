@@ -1,0 +1,11 @@
+.text-settings {
+  color: white;
+}
+
+.title-settings {
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  font-family: Poppins;
+}

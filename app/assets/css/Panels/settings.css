@@ -13,7 +13,7 @@
   display: flex;
   border: none;
   background: none;
-  color: #64bf6d80;
+  color: #1200b6;
   font-size: 140%;
   font-weight: bolder;
   margin: 7% 0%;
@@ -23,7 +23,7 @@
 .tabsettings {
   position: absolute;
   border-radius: 25px;
-  background: rgb(48, 48, 48);
+  background: #303030;
   padding: 2%;
   width: 90%;
   height: 80%;

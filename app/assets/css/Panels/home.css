@@ -4,7 +4,7 @@
 
 .overlay {
     position: absolute;
-    background: linear-gradient(rgba(27, 27, 27, 0.4),rgb(27, 27, 27)), url("../../images/background/wallpaper.jpg") no-repeat center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.568),rgb(0, 0, 0)), url("../../images/background/wallpaper.jpg") no-repeat center center scroll;
     height: 55vh;
     width: 100%;
 }
@@ -16,6 +16,16 @@
     height: auto;
     transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
     border-radius: 15px;
+}
+
+.title-home {
+    position: absolute;
+    margin-left: 44.5%;
+    margin-top: -3.5%;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: Poppins;
 }
 
 .user-head:hover {

@@ -2,12 +2,12 @@
     <div class="overlay">
 
         <div class="settingsNavbtn">
-            <button class="settingsbtn accountsettings">Account</button>
+            <button class="settingsbtn accountsettings">Compte</button>
             <button class="settingsbtn ramsettings">Ram</button>
             <button class="settingsbtn javasettings">Java</button>
             <button class="settingsbtn resolutionsettings">Resolution</button>
             <button class="settingsbtn launchersettings">Launcher</button>
-            <button class="settingsbtn settingsSave">sauvegarder</button>
+            <button class="settingsbtn settingsSave">Quitter</button>
         </div>
     </div>
 
@@ -15,13 +15,17 @@
     
 
     <div class="tabsettings accountsettingstab">
-      <button class="singout">singout</button>
+      <div class="title-settings">Gestionnaire de Compte</div>
+      <div class="text-settings">Gérer votre compte Minecraft pour jouer sur Mythikia</div>
+      <button class="singout">Deconnexion</button>
     </div>
 
 
 
 
     <div class="tabsettings ramsettinstab" style="display:none;">
+      <div class="title-settings">Mémoire Ram</div>
+      <div class="text-settings">Personnaliser le nombre de GRam que votre jeu pourra utiliser pour tourner.<br> <br> </div>
       <div class="slider"></div>
     </div>
 
@@ -29,6 +33,8 @@
 
 
     <div class="tabsettings javasettingstab" style="display:none;">
+        <div class="title-settings">Exécutable Java</div>
+        <div class="text-settings">Modifier le point d'accés Java que votre jeu va utiliser pour fonctionner.<br>Le launcher installe automatiquement une version de Java adaptée pour Mythikia.</div>
         <input type="text" value="" class="path" disabled/>
         <input type="button" value="Changer" class="path-button"/>
         <input type="file" class="path-file" style="display:none;" accept="application/octet-stream"/>
@@ -38,9 +44,8 @@
 
 
     <div class="tabsettings resolutionsettingstab" style="display:none;">
-        <div class="text-settings">Modifier la résolution de votre jeu au lancement de Minecraft.<br>
-        Définissez une résolution personnalisée ou choisissez-en une dans la liste en fonction de la taille de votre écran.<br>
-        Vous pouvez aussi faire démarrer Minecraft automatiquement en plein écran.</div>
+        <div class="title-settings">Résolution du jeu</div>
+        <div class="text-settings">Modifier la résolution de votre jeu au lancement de Minecraft.</div>
         <input type="text" class="width"/>
         <input type="text" class="height"/>
     </div>
@@ -48,19 +53,20 @@
 
 
     <div class="tabsettings launchersettingstab" style="display:none;">
+        <div class="title-settings">Paramètres du Launcher</div>
         <div>
           <input type="checkbox" class="NewsAutoRefreshSettings">
-          <label class="">Actualiser les actualités automatiquement.</label>
+          <label class="text-settings">Actualiser les actualités automatiquement.</label>
         </div>
 
         <div>
           <input type="checkbox" class="StatusServerAutoRefreshSettings">
-          <label class="">Actualiser le statut serveur automatiquement.</label>
+          <label class="text-settings">Actualiser le statut serveur automatiquement.</label>
         </div>
 
         <div>
           <input type="checkbox" class="CloseLauncherSettings">
-          <label class="">Garder le launcher ouvert après le démarrage du jeu.</label>
+          <label class="text-settings">Garder le launcher ouvert après le démarrage du jeu.</label>
         </div>
     </div>
 </div>

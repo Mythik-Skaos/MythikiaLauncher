@@ -1,6 +1,6 @@
 .uzurionAppGenHeader {
   position: relative;
-  background-color: black;
+  background-color: #000000;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
@@ -95,7 +95,7 @@
 
 .uzurionAppLoginCardSubmit {
   transition: all 0.25s ease;
-  background: linear-gradient(to right bottom, #54f659, #59e860, #5dda65, #61cd6a, #64bf6d);
+  background: linear-gradient(to right bottom, #2813e7, #2813e7, #2813e7, #2813e7, #2813e7);
   padding: 10px 40px;
   border-radius: 50px;
   border: 0px solid rgba(0,0,0,0);
@@ -104,7 +104,7 @@
 }
 
 .uzurionAppLoginCardSubmit:hover {
-  background-image: linear-gradient(to right bottom, #54f659, #57eb5f, #5be064, #5ed669, #61cb6c);
+  background-image: linear-gradient(to right bottom, #2813e7, #2813e7, #2813e7, #2813e7, #2813e7);
 }
 
 .microsoft-btn {
@@ -122,12 +122,12 @@
 }
 
 .loginSpanDim:hover {
-  color: rgb(82, 82, 82);
+  color: #2813e7;
 }
 
 .store {
   cursor: pointer;
 }
 .store:hover {
-  color: rgb(82, 82, 82);
+  color: #2813e7;
 }

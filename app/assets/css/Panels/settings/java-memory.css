@@ -21,7 +21,7 @@
   top: 0.95rem;
   height: 0.3rem;
   width: 1rem;
-  background: #64bf6d;
+  background: #1200b6;
 }
 .slider>button {
   border-radius: 1rem;
@@ -32,7 +32,7 @@
   width: 1rem;
   height: 1rem;
   background: rgb(255, 255, 255);
-  border: 0.3rem solid #64bf6d;
+  border: 0.3rem solid #1200b6;
   cursor: pointer;
 }
 
