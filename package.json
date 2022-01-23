@@ -1,12 +1,12 @@
 {
-  "name": "Mythikia-Launcher",
-  "version": "2.0.4",
-  "productName": "Mythikia-Launcher",
-  "description": "Mythikia-Launcher",
+  "name": "Mythikia Launcher",
+  "version": "1.0.0",
+  "productName": "Mythikia Launcher",
+  "description": "Mythikia Launcher",
   "main": "app/index.html",
   "author": "Skaos",
   "window": {
-    "title": "Mythikia-update",
+    "title": "Mythikia update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -33,7 +33,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Mythikia-Launcher",
+    "appId": "Mythikia Launcher",
     "nwVersion": "0.55.0",
     "packed": true,
     "targets": [
@@ -56,16 +56,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Mythikia-Launcher",
-      "companyName": "Mythikia-Launcher",
+      "productName": "Mythikia Launcher",
+      "companyName": "Mythikia Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Mythikia-Launcher",
+      "displayName": "Mythikia Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Mythikia-Launcher"
+        "CFBundleIdentifier": "Mythikia Launcher"
       }
     },
     "nsis": {
