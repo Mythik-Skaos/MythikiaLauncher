@@ -44,14 +44,14 @@ async function maintenanceCheck(){
     }
     checkUpdate();
   }).catch( err => {
-    console.log("impossible de charger le config.json");
+    console.log("Impossible de charger le config.json");
     console.log(err);
-    return shutdown("Aucune connexion internet détectée,<br>veuillez réessayer ultérieurement.");
+    return shutdown("Aucune connexion internet détectée.<br>Veuillez réessayer ultérieurement.");
   })
 }
 
 async function checkUpdate(){
-  setStatus(`Recherche de mises à jour`);
+  setStatus(`Recherche de mises à jour...`);
   const manifest = await fetch(manifestUrl).then(res => res.json());
   const update = await updater.checkNewVersion(manifest);
   if(!update) return startLauncher();
@@ -64,12 +64,12 @@ async function checkUpdate(){
   });
 
   toggleProgress();
-  setStatus(`Téléchargement de la mise à jour`);
+  setStatus(`Téléchargement de la mise à jour...`);
   const file = await updater.download(manifest);
-  setStatus(`Décompression de la mise à jour`);
+  setStatus(`Décompression de la mise à jour...`);
   await updater.unpack(file);
   toggleProgress();
-  setStatus(`Redémarrage`);
+  setStatus(`Redémarrage du launcher`);
   await updater.restartToSwap();
 }
   
