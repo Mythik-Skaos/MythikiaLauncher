@@ -2,11 +2,7 @@
 name: Launcher Build
 on:
   push:
-<<<<<<< HEAD
     branches: [ master ]
-=======
-    branches: [ main ]
->>>>>>> 27e6534 (patch)
 
 jobs:
   release:
