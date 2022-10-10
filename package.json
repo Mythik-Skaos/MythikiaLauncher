@@ -1,0 +1,40 @@
+{
+  "name": "mythikialauncher",
+  "preductname": "Mythikia Launcher",
+  "version": "2.0.0",
+  "description": "Mythikia Launcher is the official launcher for Mythikia Skylock Server",
+  "main": "src/app.js",
+  "author": "MythikiaCorp",
+  "url": "https://updatemythikia.mythik.fr/newlauncher/",
+  "engines": {
+    "node": "16.x.x"
+  },
+  "scripts": {
+    "start": "env-cmd electron .",
+    "build": "node build.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "license": "CC0-1.0",
+  "nodemonConfig": {
+    "ext": "js,html,css"
+  },
+  "dependencies": {
+    "electron-updater": "^5.0.1",
+    "minecraft-java-core": "^2.1.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "electron": "^19.0.7",
+    "electron-builder": "^23.0.3",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkaosDev/MythikiaLauncher.git"
+  },
+  "bugs": {
+    "url": "https://www.mythik.fr"
+  },
+  "homepage": "https://www.mythik.fr"
+}
