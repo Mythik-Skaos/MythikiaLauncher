@@ -2,7 +2,7 @@
   "name": "mythikialauncher",
   "preductname": "Mythikia Launcher",
   "version": "2.0.0",
-  "description": "Mythikia Launcher is the official launcher for Mythikia Skylock Server",
+  "description": "Mythikia Launcher is the official launcher for Mythikia Skylock Server.",
   "main": "src/app.js",
   "author": "MythikiaCorp",
   "url": "https://updatemythikia.mythik.fr/newlauncher/",
