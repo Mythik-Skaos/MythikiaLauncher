@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 =======
     branches: [ main ]
->>>>>>> 057137d (patch)
+>>>>>>> 27e6534 (patch)
 
 jobs:
   release:
