@@ -54,7 +54,7 @@ class Splash {
     }
 
     async checkUpdate() {
-        this.setStatus(`Recherche de mise à jour`);
+        this.setStatus(`recherche de mise à jour...`);
         ipcRenderer.send('update-app');
 
         ipcRenderer.on('updateAvailable', () => {
