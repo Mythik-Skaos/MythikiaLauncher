@@ -1,10 +1,10 @@
 {
-  "name": "mythikialauncher",
-  "preductname": "Mythikia Launcher",
+  "name": "afauralauncher",
+  "preductname": "Afaura Launcher",
   "version": "2.0.0",
-  "description": "Mythikia Launcher is the official launcher for Mythikia Skylock Server.",
+  "description": "Afaura Launcher is the official launcher for Afaura PvP Faction Server.",
   "main": "src/app.js",
-  "author": "MythikiaCorp",
+  "author": "Hislander, Skaos",
   "url": "https://updatemythikia.mythik.fr/newlauncher/",
   "engines": {
     "node": "16.x.x"
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkaosDev/MythikiaLauncher.git"
+    "url": "git+https://github.com/SkaosDev/AfauraLaucnher.git"
   },
   "bugs": {
-    "url": "https://www.mythik.fr"
+    "url": "https://www.afaura-serveur.eu"
   },
-  "homepage": "https://www.mythik.fr"
+  "homepage": "https://www.afaura-serveur.eu"
 }

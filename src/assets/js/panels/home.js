@@ -196,21 +196,6 @@ class Home {
         document.querySelector('.settings-btn').addEventListener('click', () => {
             changePanel('settings');
         });
-        document.querySelector('.social-insta-image').addEventListener('click', () => {
-            require('electron').shell.openExternal('https://www.instagram.com/mythikia_ofc/')
-        });
-        document.querySelector('.social-twitter-image').addEventListener('click', () => {
-            require('electron').shell.openExternal('https://twitter.com/Mythikia')
-        });
-        document.querySelector('.social-web-image').addEventListener('click', () => {
-            require('electron').shell.openExternal('https://www.mythik.fr/')
-        });
-        document.querySelector('.social-discord-image').addEventListener('click', () => {
-            require('electron').shell.openExternal('https://discord.gg/mT5KAJUhcy')
-        });
-        document.querySelector('.social-youtube-image').addEventListener('click', () => {
-            require('electron').shell.openExternal('https://www.youtube.com/channel/UCBZ6xPOvGztFDHwEX_Hf50g')
-        });
     }
 
     async getdate(e) {
