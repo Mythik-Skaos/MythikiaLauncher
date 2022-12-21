@@ -65,11 +65,11 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: blue;
+    background: #a50000;
     font: normal normal bold 20px/25px Poppins;
     color: #ffffff;
     margin: 15px 0;
-    box-shadow: 0 0 5px blue;
+    box-shadow: 0 0 5px #a50000;
 }
 
 .play-btn:hover {
@@ -78,11 +78,11 @@
     height: 37px;
     border-radius: 20px;
     border: none;
-    background: rgb(0, 0, 139);
+    background: #7a0000;
     font: normal normal bold 20px/25px Poppins;
     color: #fff;
     margin: 15px 0;
-    box-shadow: 0 0 5px rgb(0, 0, 139);
+    box-shadow: 0 0 5px #7a0000;
 }
 
 .download-content {
@@ -112,7 +112,7 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: blue;
+    background-color: #a50000;
     border-radius: 10px;
 }
 
