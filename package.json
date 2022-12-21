@@ -2,7 +2,7 @@
   "name": "afauralauncher",
   "preductname": "Afaura Launcher",
   "version": "2.0.1",
-  "description": "Afaura Launcher is the official launcher for Afaura PvP Faction Server.",
+  "description": "Afaura Launcher is the official launcher for Afaura PvP Faction Server (French Serveur).",
   "main": "src/app.js",
   "author": "Hislander, Skaos",
   "url": "https://fichier-launcher.go.yj.fr/launcher/",
