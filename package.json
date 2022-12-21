@@ -5,7 +5,7 @@
   "description": "Afaura Launcher is the official launcher for Afaura PvP Faction Server.",
   "main": "src/app.js",
   "author": "Hislander, Skaos",
-  "url": "https://updatemythikia.mythik.fr/newlauncher/",
+  "url": "https://fichier-launcher.go.yj.fr/launcher/",
   "engines": {
     "node": "16.x.x"
   },
