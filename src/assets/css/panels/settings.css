@@ -389,6 +389,7 @@
 
 .size-cross {
     margin: 10px;
+    color: white;
 }
 
 .size-cross:before {
@@ -433,7 +434,6 @@
     outline: none;
     appearance: none;
 }
-
 
 /*******************************************************************************
  *                                                                             *

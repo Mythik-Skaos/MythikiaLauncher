@@ -46,6 +46,17 @@ img {
     display: block;
 }
 
+#name-launcher{
+    font-family: Poppins;
+    font-weight: bold;
+    color: rgb(255, 74, 74);
+    margin-left: 5px;
+}
+
+#name-launcher-span{
+    margin-left: 5px;
+}
+
 .button-frame {
     position: relative;
     display: table-cell;
