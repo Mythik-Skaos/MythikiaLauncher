@@ -201,11 +201,11 @@ class Home {
         let imageArticle1 = document.querySelector('.shop-img1');
         let imageArticle2 = document.querySelector('.shop-img2');
 
-        let shopDiv1 = document.querySelector('.shopdiv1')
-        let shopDiv2 = document.querySelector('.shopdiv2')
+        let shopDiv1 = document.querySelector('.shopdiv1');
+        let shopDiv2 = document.querySelector('.shopdiv2');
 
-        imageArticle1.src = this.config.shop.article_1.icon
-        imageArticle2.src = this.config.shop.article_2.icon
+        imageArticle1.src = this.config.shop.article_1.icon;
+        imageArticle2.src = this.config.shop.article_2.icon;
         nameArticle1.textContent = this.config.shop.article_1.name;
         nameArticle2.textContent = this.config.shop.article_2.name;
         prixArticle1.textContent = this.config.shop.article_1.price;
