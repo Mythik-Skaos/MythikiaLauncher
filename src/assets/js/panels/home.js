@@ -23,6 +23,7 @@ class Home {
         this.initNews();
         this.initLaunch();
         this.initStatusServer();
+        this.initBoutique();
         this.initBtn();
     }
 
@@ -190,6 +191,33 @@ class Home {
             nameServer.textContent = 'Serveur indisponible';
             serverMs.innerHTML = `<span class="red">Hors ligne</span>`;
         }
+    }
+
+    async initBoutique() {
+        let nameArticle1 = document.querySelector('.shop-text .name1');
+        let nameArticle2 = document.querySelector('.shop-text .name2');
+        let prixArticle1 = document.querySelector('.shop-text .desc1');
+        let prixArticle2 = document.querySelector('.shop-text .desc2');
+        let imageArticle1 = document.querySelector('.shop-img1');
+        let imageArticle2 = document.querySelector('.shop-img2');
+
+        let shopDiv1 = document.querySelector('.shopdiv1')
+        let shopDiv2 = document.querySelector('.shopdiv2')
+
+        imageArticle1.src = this.config.shop.article_1.icon
+        imageArticle2.src = this.config.shop.article_2.icon
+        nameArticle1.textContent = this.config.shop.article_1.name;
+        nameArticle2.textContent = this.config.shop.article_2.name;
+        prixArticle1.textContent = this.config.shop.article_1.price;
+        prixArticle2.textContent = this.config.shop.article_2.price;
+
+        shopDiv1.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.shop.article_1.link);
+        });
+        
+        shopDiv2.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.shop.article_2.link);
+        });
     }
 
     initBtn() {

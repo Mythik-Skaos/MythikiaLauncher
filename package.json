@@ -1,7 +1,7 @@
 {
   "name": "afauralauncher",
   "preductname": "Afaura Launcher",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Afaura Launcher is the official launcher for Afaura PvP Faction Server.",
   "main": "src/app.js",
   "author": "Hislander, Skaos",

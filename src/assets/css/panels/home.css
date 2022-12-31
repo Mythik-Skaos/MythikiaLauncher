@@ -242,13 +242,6 @@
     height: 75px;
     background-color: #292929;
     border-radius: 10px;
-    transition: opacity 1s;
-    opacity: 1;
-}
-
-.server:hover {
-    transition: opacity 1s;
-    opacity: 1;
 }
 
 .server-img {
@@ -367,4 +360,63 @@
 
 .social-div{
     transform: translate(0%, 85%);
+}
+
+.shop {
+    position: relative;
+    width: 100%;
+    height: 222px;
+    background-color: #292929;
+    border-radius: 10px;
+    transition: opacity 1s;
+    opacity: 1;
+    margin-top: 18px;
+}
+
+.shop-title {
+    position: absolute;
+    font: normal normal bold 17px/25px Poppins;
+    color: #E1E1E1;
+    top: 13px;
+    transition: color .2s;
+    left: 39%;
+}
+
+.shop-div{
+    transform: translate(0%, 50%);
+}
+
+.shop-div {
+    position: relative;
+    width: 90%;
+    height: 75px;
+    background-color: #212121;
+    transition: background-color 0.15s;
+    border-radius: 10px;
+    left: 5%;
+    top: 10px;
+}
+
+.shop-div:hover{
+    background-color: #1d1d1d;
+}
+
+.shop-img {
+    position: absolute;
+    width: 42px;
+    height: 45px;
+    top: 15px;
+    left: 15px;
+}
+
+.shop-desc{
+    color: rgb(149, 149, 149);
+}
+
+.shopdiv1{
+    margin-bottom: 10px;
+}
+
+.shop-btn{
+    background-color: rgb(0, 0, 0) !important;
 }
