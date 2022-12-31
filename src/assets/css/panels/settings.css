@@ -22,6 +22,7 @@
     box-shadow: 0 0 5px #a50000;
     color: white;
     outline: none;
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 
 .tab-btn-css:hover {
@@ -207,6 +208,10 @@
  * java settings                                                               *
  *                                                                             *
  ******************************************************************************/
+
+#total-ram, #free-ram{
+    color: rgb(220, 0, 0) !important;
+}
 
 .java-settings {
     background: #292929;

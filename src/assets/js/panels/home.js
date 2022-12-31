@@ -25,6 +25,7 @@ class Home {
         this.initStatusServer();
         this.initBoutique();
         this.initBtn();
+        this.initSocialMedia();
     }
 
     async initNews() {
@@ -191,6 +192,34 @@ class Home {
             nameServer.textContent = 'Serveur indisponible';
             serverMs.innerHTML = `<span class="red">Hors ligne</span>`;
         }
+    }
+
+    async initSocialMedia() {
+        let Youtube = document.querySelector('.social-youtube');
+        let Twitter = document.querySelector('.social-twitter');
+        let Instagram = document.querySelector('.social-insta');
+        let Discord = document.querySelector('.social-discord');
+        let Web = document.querySelector('.social-web');
+
+        Youtube.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.social.youtube);
+        });
+        
+        Twitter.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.social.twitter);
+        });
+
+        Instagram.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.social.insta);
+        });
+        
+        Discord.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.social.discord);
+        });
+
+        Web.addEventListener('click', () => {
+            require('electron').shell.openExternal(this.config.social.web);
+        });
     }
 
     async initBoutique() {
